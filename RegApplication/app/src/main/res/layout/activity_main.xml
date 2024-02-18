@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral30"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textregistered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="620dp"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/textstudentID"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="494dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="studentID"
+        android:textColor="#F4EAEA"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/textstudentname"
+        android:layout_width="360dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="417dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Student Name"
+        android:textColor="#EFEAEA" />
+
+    <EditText
+        android:id="@+id/textstudentage"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="353dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Age"
+        android:textColor="#E6E0E0"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/textstudentadress"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="283dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="student adress"
+        android:textColor="#EFEAEA"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/textstudentemail"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="219dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="student email"
+        android:textColor="#DFD8D8"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/textbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="123dp"
+        android:background="#2196F3"
+        android:backgroundTint="#03A9F4"
+        android:text="Register"
+        android:textColor="#F4F2F2"
+        android:textColorHighlight="#9E0A0A"
+        android:textColorLink="#9F7C7C"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>
